@@ -65,3 +65,25 @@ if __name__ == "__main__":
         print("No ciphertext entered. Exiting.")
     else:
         frequency_attack(ciphertext, top_n)
+
+output:
+=== Additive (Caesar) Cipher Frequency Attack ===
+Enter ciphertext: Gur dhvpx oebrja sbk whzcf bire gur ynmj gbt
+How many top guesses to display? (e.g., 10): 5
+
+Top 5 most likely plaintexts:
+
+1. Key = 13 | Score = 110.398 | Plaintext guess:
+   The quick brown fox jumps over the lazy dog
+
+2. Key = 19 | Score = 124.044 | Plaintext guess:
+   Nby kocwe vligh zir dogjm ipyl nby futs xia
+
+3. Key = 25 | Score = 130.256 | Plaintext guess:
+   Hvs eiwgy pfckb tcl xiadg cjsf hvs zonm rcu
+
+4. Key = 3 | Score = 130.675 | Plaintext guess:
+   Dro aesmu lbygx pyh tewzc yfob dro vkjI nyq
+
+5. Key = 15 | Score = 133.076 | Plaintext guess:
+   Rfc osgai zpmul dmv hsknq mtcp rfc jyxw bme
