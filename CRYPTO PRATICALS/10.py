@@ -66,3 +66,14 @@ message = "Must see you over Cadogan West. Coming at once."
 cipher_text = playfair_encrypt(message, matrix)
 print("\nEncrypted Message:")
 print(cipher_text)
+
+output:
+Given Playfair Matrix:
+['M', 'F', 'H', 'I', 'K']
+['U', 'N', 'O', 'P', 'Q']
+['Z', 'V', 'W', 'X', 'Y']
+['E', 'L', 'A', 'R', 'G']
+['D', 'S', 'T', 'B', 'C']
+
+Encrypted Message:
+UZTBDLGZPNNW LGTGTUERGVLDBDUHFPERHWQSRZ
