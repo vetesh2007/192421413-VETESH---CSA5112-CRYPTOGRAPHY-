@@ -63,3 +63,9 @@ if __name__ == "__main__":
     K = mat_mult_2x2(C, P_inv)
     print("Recovered key matrix K (mod26):")
     print(K)
+
+output:
+Plain matrix P (columns are P1,P2):
+[[12, 4], [4, 19]]
+Cipher matrix C (columns are C1,C2):
+[[23, 16], [6, 9]]
