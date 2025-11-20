@@ -29,3 +29,6 @@ P1, P2 = 'E', 'T'  # assume they map to 'E' and 'T'
 
 a, b = solve_affine_from_freq(C1, C2, P1, P2)
 print(f"Derived affine cipher parameters: a = {a}, b = {b}")
+
+output:
+Derived affine cipher parameters: a = 3, b = 15
