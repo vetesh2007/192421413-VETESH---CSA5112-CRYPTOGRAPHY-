@@ -72,3 +72,15 @@ for row in matrix:
 plain_text = playfair_decrypt(cipher_text, matrix)
 print("\nDecrypted PT-109 Message:")
 print(plain_text)
+
+output:
+Playfair Matrix (PT-109):
+['R', 'O', 'Y', 'A', 'L']
+['N', 'E', 'W', 'Z', 'D']
+['V', 'B', 'C', 'F', 'G']
+['H', 'I', 'K', 'M', 'P']
+['Q', 'S', 'T', 'U', 'X']
+
+Decrypted PT-109 Message:
+PTBOATONEOWENINELOSTINACTIONINBLACKESSSTRAITTWOMILESSWERESUCGVEXCREWOF TWELVEXR
+QUESTANYINFORMATIONX
