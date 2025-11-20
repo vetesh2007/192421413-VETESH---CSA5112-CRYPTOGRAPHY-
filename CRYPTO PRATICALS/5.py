@@ -25,3 +25,10 @@ if gcd(a, 26) != 1:
 else:
     ciphertext = affine_encrypt(plaintext, a, b)
     print("Ciphertext:", ciphertext)
+
+output:
+Enter plaintext: AFFINECIPHER
+Enter value of a: 5
+Enter value of b: 8
+Ciphertext: IHHWVCSWFRCP
+
